@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f5f7;
+    height: 100vh;
+	margin: -20px 0 50px;
+}
+.form{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    padding: 10px;
+    border-radius: 1px solid black;
+}
+.error::before {
+    display: inline;
+    content: "⚠ ";
+}
+.error{
+	font-size: 15px;
+	color: #ff0505;
+	margin: 5px 0;
+}
+.showPassword{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: -45px;
+}
