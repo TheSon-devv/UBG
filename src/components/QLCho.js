@@ -1,6 +1,7 @@
 import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const QLCho = () => {
   return (
@@ -27,7 +28,9 @@ const QLCho = () => {
             <td>Tin thanh khoản</td>
             <td>13:01-6/3/2021</td>
             <td>
-              <a href="#">Xem chi tiết</a>
+              <Link to="/chitiet" target="_blank">
+                Xem chi tiet
+              </Link>
             </td>
           </tr>
           <tr>
@@ -38,7 +41,9 @@ const QLCho = () => {
             <td>Tin sở hữu</td>
             <td>11:11-11/02/2021</td>
             <td>
-              <a href="#">Xem chi tiết</a>
+              <Link to="/chitiet" target="_blank">
+                Xem chi tiet
+              </Link>
             </td>
           </tr>
         </tbody>
